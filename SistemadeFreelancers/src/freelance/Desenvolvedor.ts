@@ -1,14 +1,14 @@
 import { Servicos } from "../servicos/IServicos";
 
 
-export class Uber implements Servicos {
+export class Desenvolvedor implements Servicos {
     preco: number
 
     constructor(preco: number) {
         this.preco = preco
     }
     getDescricao(): string {
-        return 'Motorista autonomo'
+        return 'Desenvolvedor'
     }
     getPreco(): number {
         return 1100
