@@ -14,6 +14,10 @@ export class Animal {
     emitirSom(){
         console.log("Emitindo som ...")
     }
+    falar(){
+        console.log(`${this.nome}`)
+    }
+
 }
 
 /*const Snoop = new Cachorro("Snoop");

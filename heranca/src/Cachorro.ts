@@ -7,4 +7,7 @@ export class Cachorro extends Animal {
     emitirSom(): void {
         console.log(`${this.nome} disse - Au! Au!`)
     }
+    falar(): void {
+        console.log(`${this.nome} está latindo`)
+    }
 }

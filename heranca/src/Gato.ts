@@ -7,4 +7,7 @@ export class Gato extends Animal {
     emitirSom(): void {
         console.log(`${this.nome} disse - Miau`)
     }
+    falar(): void {
+        console.log(`${this.nome} está miando`)
+    }
 }
